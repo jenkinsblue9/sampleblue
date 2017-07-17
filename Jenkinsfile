@@ -8,7 +8,7 @@ pipeline {
     }
     stage('print2') {
       steps {
-        echo 'i am stage two'
+        echo 'New staged'
       }
     }
   }
